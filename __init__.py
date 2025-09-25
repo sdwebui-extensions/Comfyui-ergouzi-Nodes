@@ -47,6 +47,8 @@ from .nodes.EGTXSFBLS import EGTXSFBLSNode
 from .nodes.EGLATENTBISC import EGKLATENT
 from .nodes.EGZZJDYHHT import EGZZMHHT
 
+WEB_DIRECTORY = "./js"
+
 NODE_CLASS_MAPPINGS = {
     "EG_FX_BDAPI": EGBDAPINode,
     "EG_TX_CCHQ": EGTXCCHQ,
